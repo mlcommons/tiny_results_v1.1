@@ -1,0 +1,38 @@
+{
+	"Submitter": "Alexander Montgomerie-Corcoran",
+	"Division": "closed",
+	"Status": "Available",
+
+	"Board Name": "Cora-Z7",
+	"Board Memory capacity (not including SoC, processor, or accelerator)": "512MB",
+	"Board Memory type": "DDR3",
+	"Board storage capacity": "",
+	"Board storage type": "",
+	"SoC Name": "ZYNQ XC7Z007S-1CLG400C",
+	"SoC Memory capacity (not including processor or accelerator)": "256 KB",
+	"SoC Memory type": "SRAM",
+	"SoC storage capacity": "",
+	"SoC storage type": "",
+	"Processor(s) Name": "ARM Cortex A9 Based",
+	"Processor(s) Frequencies": "667Mhz",
+	"Processor memory type and capacity": "32 KB L1 Cache per Core, 512 KB L2 Cache",
+	"Processor storage type and capacity": "",
+	"Accelerator": "XC7Z007S",
+	"Accelerator(s) Frequencies": "143MHz",
+	"Accelerator memory type and capacity": "SRAM 1.8Mb",
+	"Accelerator storage type and capacity": "",
+	"Hardware Notes": "",
+
+	"Inference Framework": "fpgaconvnet",
+	"Software Libraries": "Vivado HLS 2019.1, Xilinx SDK 2019.1, Vivado 2019.1",
+	"Operating System ": "bare metal",
+	"Other Software Stack": "",
+	"Software Notes": "",
+
+	"Quantization Method": "INT8",
+	"Training framework (open division)": "",
+	"ML Model Compiler(s)": "fpgaconvnet",
+	"General Compiler(s)": "",
+	"Other Software": "",
+	"Training and Quantization Notes": ""
+}

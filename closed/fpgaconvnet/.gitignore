@@ -1,0 +1,4 @@
+code/**/.Xil/
+code/**/workspace/
+code/**/*.onnx
+code/**/*.tflite

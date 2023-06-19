@@ -1,0 +1,1 @@
+python source/main.py -m "models/vww_96_float_official.onnx" -c "../../data/vww/calibration_official" -o "temps/model_data/"

@@ -1,0 +1,17 @@
+[device]
+name = "zybo-z1"
+#family = ""
+part = "xc7z010clg400-1"
+board = ""
+
+[resources]
+DSP   = 80
+BRAM  = 120
+FF    = 35200
+LUT   = 17600
+
+[system]
+board_frequency = 125 # in MHz
+memory_bandwidth = 100.0 # in Gbps
+reconfiguration_time = 0.08255 # in seconds
+port_width = 128

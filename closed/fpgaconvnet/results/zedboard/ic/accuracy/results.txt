@@ -1,0 +1,2 @@
+03334.833 ulp-mlperf: Top-1: 86.0%
+03334.852 ulp-mlperf: AUC: 0.94

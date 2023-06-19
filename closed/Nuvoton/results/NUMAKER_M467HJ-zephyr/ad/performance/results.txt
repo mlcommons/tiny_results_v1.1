@@ -1,0 +1,29 @@
+00133.623 ulp-mlperf: Performance results for window 2:
+00133.623 ulp-mlperf:   # Inferences :         4000
+00133.623 ulp-mlperf:   Runtime      :       19.525 sec.
+00133.623 ulp-mlperf:   Throughput   :      204.866 inf./sec.
+00133.623 ulp-mlperf: Runtime requirements have been met.
+00133.624 ulp-mlperf: Performance results for window 4:
+00133.624 ulp-mlperf:   # Inferences :         4000
+00133.624 ulp-mlperf:   Runtime      :       19.547 sec.
+00133.624 ulp-mlperf:   Throughput   :      204.635 inf./sec.
+00133.624 ulp-mlperf: Runtime requirements have been met.
+00133.624 ulp-mlperf: Performance results for window 6:
+00133.624 ulp-mlperf:   # Inferences :         4000
+00133.624 ulp-mlperf:   Runtime      :       19.546 sec.
+00133.624 ulp-mlperf:   Throughput   :      204.645 inf./sec.
+00133.624 ulp-mlperf: Runtime requirements have been met.
+00133.624 ulp-mlperf: Performance results for window 8:
+00133.624 ulp-mlperf:   # Inferences :         4000
+00133.624 ulp-mlperf:   Runtime      :       19.550 sec.
+00133.624 ulp-mlperf:   Throughput   :      204.604 inf./sec.
+00133.624 ulp-mlperf: Runtime requirements have been met.
+00133.624 ulp-mlperf: Performance results for window 10:
+00133.624 ulp-mlperf:   # Inferences :         4000
+00133.624 ulp-mlperf:   Runtime      :       19.557 sec.
+00133.624 ulp-mlperf:   Throughput   :      204.530 inf./sec.
+00133.624 ulp-mlperf: Runtime requirements have been met.
+00133.624 ulp-mlperf: ---------------------------------------------------------
+00133.625 ulp-mlperf: Median throughput is 204.635 inf./sec.
+00133.625 ulp-mlperf: ---------------------------------------------------------
+00133.625 ulp-mlperf: Cannot compute accuracy metrics in single-run mode.

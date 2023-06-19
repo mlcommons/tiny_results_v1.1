@@ -1,0 +1,38 @@
+{
+	"Submitter": "Kai_Jiang",
+	"Division": "closed",
+	"Status": "rdi",
+
+	"Board Name": "ZCU106",
+	"Board Memory capacity (not including SoC, processor, or accelerator)": "",
+	"Board Memory type": "",
+	"Board storage capacity": "",
+	"Board storage type": "",
+	"SoC Name": "",
+	"SoC Memory capacity (not including processor or accelerator)": "368KB",
+	"SoC Memory type": "SRAM",
+	"SoC storage capacity": "192KB",
+	"SoC storage type": "SRAM",
+	"Processor(s) Name": "RISC-V",
+	"Processor(s) Frequencies": "20M",
+	"Processor memory type and capacity": "",
+	"Processor storage type and capacity": "",
+	"Accelerator": "ANPU",
+	"Accelerator(s) Frequencies": "200M",
+	"Accelerator memory type and capacity": "SRAM",
+	"Accelerator storage type and capacity": "882KB",
+	"Hardware Notes": "",
+
+	"Inference Framework": "N/A",
+	"Software Libraries": "self-developed",
+	"Operating System ": "bare-metal",
+	"Other Software Stack": "",
+	"Software Notes": "",
+
+	"Quantization Method": "Uniform symmetric quantization",
+	"Training framework (open division)": "",
+	"ML Model Compiler(s)": "",
+	"General Compiler(s)": "",
+	"Other Software": "",
+	"Training and Quantization Notes": "weight: quantize to int8, using max/min as clipping range; activation: quantize to uint8, per_tensor quantization, using percentile(99.99%) as clipping range."
+}

@@ -1,0 +1,14 @@
+{
+    "macros": [
+        "CMSIS_NN",
+        "TF_LITE_DISABLE_X86_NEON",
+        "TF_LITE_STATIC_MEMORY"
+    ],
+    "target_overrides": {
+        "*": {
+            "platform.stdio-baud-rate": 115200,
+            "platform.stdio-convert-newlines": true,
+            "platform.heap-stats-enabled": 1
+        }
+    }
+}

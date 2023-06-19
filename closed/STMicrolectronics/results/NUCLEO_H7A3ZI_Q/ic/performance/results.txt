@@ -1,0 +1,29 @@
+00044.838 ulp-mlperf: Performance results for window 2:
+00044.839 ulp-mlperf:   # Inferences :          100
+00044.839 ulp-mlperf:   Runtime      :        5.195 sec.
+00044.839 ulp-mlperf:   Throughput   :       19.250 inf./sec.
+00044.839 ulp-mlperf: e-[The run must take at least 10 seconds and 10 iterations to be valid]
+00044.839 ulp-mlperf: Performance results for window 4:
+00044.839 ulp-mlperf:   # Inferences :          100
+00044.839 ulp-mlperf:   Runtime      :        5.195 sec.
+00044.839 ulp-mlperf:   Throughput   :       19.250 inf./sec.
+00044.839 ulp-mlperf: e-[The run must take at least 10 seconds and 10 iterations to be valid]
+00044.839 ulp-mlperf: Performance results for window 6:
+00044.839 ulp-mlperf:   # Inferences :          100
+00044.842 ulp-mlperf:   Runtime      :        5.195 sec.
+00044.842 ulp-mlperf:   Throughput   :       19.250 inf./sec.
+00044.843 ulp-mlperf: e-[The run must take at least 10 seconds and 10 iterations to be valid]
+00044.843 ulp-mlperf: Performance results for window 8:
+00044.843 ulp-mlperf:   # Inferences :          100
+00044.843 ulp-mlperf:   Runtime      :        5.194 sec.
+00044.843 ulp-mlperf:   Throughput   :       19.251 inf./sec.
+00044.843 ulp-mlperf: e-[The run must take at least 10 seconds and 10 iterations to be valid]
+00044.843 ulp-mlperf: Performance results for window 10:
+00044.843 ulp-mlperf:   # Inferences :          100
+00044.843 ulp-mlperf:   Runtime      :        5.195 sec.
+00044.843 ulp-mlperf:   Throughput   :       19.250 inf./sec.
+00044.843 ulp-mlperf: e-[The run must take at least 10 seconds and 10 iterations to be valid]
+00044.843 ulp-mlperf: ---------------------------------------------------------
+00044.844 ulp-mlperf: Median throughput is 19.250 inf./sec.
+00044.844 ulp-mlperf: ---------------------------------------------------------
+00044.844 ulp-mlperf: Cannot compute accuracy metrics in single-run mode.

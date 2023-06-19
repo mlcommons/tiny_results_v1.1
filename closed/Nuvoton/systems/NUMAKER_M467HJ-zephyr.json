@@ -1,0 +1,47 @@
+{
+	"Submitter": "Nuvoton",
+	"Division": "Closed",
+	"Status": "Available",
+
+	"Board Name": "NUMAKER_M467HJ",
+	"Board Memory capacity (not including SoC, processor, or accelerator)": "8MB",
+	"Board Memory type": "HyperRAM",
+	"Board storage capacity": "4MB",
+	"Board storage type": "SPI Flash",
+	"SoC Name": "M467HJHAN",
+	"SoC Memory capacity (not including processor or accelerator)": "512KB",
+	"SoC Memory type": "SRAM",
+	"SoC storage capacity": "1024KB",
+	"SoC storage type": "Flash",
+	"Processor(s) Name": "Arm® Cortex®-M4F",
+	"Processor(s) Frequencies": "200 MHz",
+	"Processor memory type and capacity": "",
+	"Processor storage type and capacity": "",
+	"Accelerator": "",
+	"Accelerator(s) Frequencies": "",
+	"Accelerator memory type and capacity": "",
+	"Accelerator storage type and capacity": "",
+	"Hardware Notes": "",
+
+	"Inference Framework": "ONNC",
+	"Software Libraries": {
+		"CMSIS_5": {
+			"SHA": "b9667965e0c41d7ee0c63983beccc9b8cd6b0f7f"	
+		}
+	},
+	"Operating System ": {
+		"Zephyr OS": {
+			"OS version": "m467/nvt_m467",
+			"Zephyr SDK version": "0.15.2"
+		}
+	},
+	"Other Software Stack": "",
+	"Software Notes": "",
+
+	"Quantization Method": "ONNC calibrator with PTQ",
+	"Training framework (open division)": "",
+	"ML Model Compiler(s)": "",
+	"General Compiler(s)": "arm-zephyr-eabi-g++ (Zephyr SDK 0.15.2) 12.1.0",
+	"Other Software": "",
+	"Training and Quantization Notes": ""
+}

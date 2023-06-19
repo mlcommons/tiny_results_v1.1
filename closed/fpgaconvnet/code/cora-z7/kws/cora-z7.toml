@@ -1,0 +1,17 @@
+[device]
+name = "coraz7"
+#family = ""
+part = "xc7z007sclg400-1"
+board = ""
+
+[resources]
+DSP   = 66
+BRAM  = 100
+FF    = 28800
+LUT   = 14400
+
+[system]
+board_frequency = 143 # in MHz
+memory_bandwidth = 100.0 # in Gbps
+reconfiguration_time = 0.08255 # in seconds
+port_width = 128

@@ -1,0 +1,2 @@
+07203.667 ulp-mlperf: Top-1: 84.9%
+07203.686 ulp-mlperf: AUC: 0.96

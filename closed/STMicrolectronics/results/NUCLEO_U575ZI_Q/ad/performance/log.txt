@@ -1,0 +1,135 @@
+00199.252 session: m-session-start-id[20230505091405]
+00199.252 parser: m-bmark-run-name[ML Performance 1.0.1]-code[ulp-mlperf]
+00199.259 sequencer: m-sequencer-start
+00199.259 sequencer: m-sequencing-i[1]-command[version]-ack[/parser: m-ready/]-ms[5000]-acc[0]-total_ms[8212000]
+00199.260 parser: Command "version"
+00199.260 parser: m-version[3.0.10]
+00199.260 parser: m-ready-finished[version]
+00199.260 sequencer: m-sequencing-i[2]-command[bm cfg ulp-mlperf]-ack[/parser: m-ready/]-ms[5000]-acc[5000]-total_ms[8212000]
+00199.260 parser: Command "bm cfg ulp-mlperf"
+00199.768 parser: m-bm-cfg-name[ulp-mlperf]-key[iterWarmup]-val[1]
+00199.769 parser: m-bm-cfg-name[ulp-mlperf]-key[iterInfer]-val[2500]
+00199.769 parser: m-bm-cfg-name[ulp-mlperf]-key[runMode]-val[bmark]
+00199.769 parser: m-bm-cfg-name[ulp-mlperf]-key[model]-val[ad01]
+00199.769 parser: m-bm-cfg-name[ulp-mlperf]-key[sourceDir]-val[C:\Users\baghdadf\eembc\runner\benchmarks\ulp-mlperf\datasets]
+00199.769 parser: m-bm-cfg-name[ulp-mlperf]-key[singleInputFn]-val[normal_id_01_00000003_hist_librosa.bin]
+00199.770 parser: m-ready-finished[bm]
+00199.770 sequencer: m-sequencing-i[3]-command[dut profile]-ack[/dut: m-ready/]-ms[5000]-acc[10000]-total_ms[8212000]
+00199.771 parser: Command "dut profile"
+00199.771 parser: m-ready-finished[dut]
+00199.779 dut: m-profile-[ULPMark for tinyML Firmware V0.0.1]
+00199.780 dut: m-model-[ad01]
+00199.782 dut: m-ready
+00199.782 sequencer: m-sequencing-i[4]-command[dut timestamp]-ack[/dut: m-ready/]-ms[5000]-acc[15000]-total_ms[8212000]
+00199.782 parser: Command "dut timestamp"
+00199.783 parser: m-ready-finished[dut]
+00199.788 dut: m-lap-us-210801038
+00199.789 dut: m-ready
+00199.789 sequencer: m-sequencing-i[5]-command[bload dut "C:\Users\baghdadf\eembc\runner\benchmarks\ulp-mlperf\datasets\ad01\normal_id_01_00000003_hist_librosa.bin" 0 2560]-ack[/parser: m-ready/]-ms[1638400]-acc[20000]-total_ms[8212000]
+00199.789 parser: Command "bload dut "C:\Users\baghdadf\eembc\runner\benchmarks\ulp-mlperf\datasets\ad01\normal_id_01_00000003_hist_librosa.bin" 0 2560"
+00199.790 parser: File size is 102400, loading...
+00199.795 parser: Starting at byte offset 0
+00199.795 parser: Sending 2560 bytes
+00199.795 parser: m-mute-target[dut]
+00200.432 parser: m-unmute-target[dut]
+00200.432 parser: Binary load took 0.636 sec, or 160.904 kB/sec
+00200.432 parser: m-bload-done
+00200.432 parser: m-ready-finished[bload]
+00200.432 sequencer: m-sequencing-i[6]-command[dut infer 2500 1]-ack[/dut.?: m-ready/]-ms[-1]-acc[1658400]-total_ms[8212000]
+00200.432 parser: Command "dut infer 2500 1"
+00200.432 parser: m-ready-finished[dut]
+00200.439 dut: m-warmup-start-1
+00200.445 dut: m-warmup-done
+00200.446 dut: m-infer-start-2500
+00200.448 dut: m-lap-us-211469162
+00212.456 dut: m-lap-us-223593846
+00212.457 dut: m-infer-done
+00212.459 dut: m-results-[11.772]
+00212.460 dut: m-ready
+00212.460 sequencer: m-sequencing-i[7]-command[bload dut "C:\Users\baghdadf\eembc\runner\benchmarks\ulp-mlperf\datasets\ad01\normal_id_01_00000013_hist_librosa.bin" 0 2560]-ack[/parser: m-ready/]-ms[1638400]-acc[1658399]-total_ms[8212000]
+00212.460 parser: Command "bload dut "C:\Users\baghdadf\eembc\runner\benchmarks\ulp-mlperf\datasets\ad01\normal_id_01_00000013_hist_librosa.bin" 0 2560"
+00212.460 parser: File size is 102400, loading...
+00212.465 parser: Starting at byte offset 0
+00212.466 parser: Sending 2560 bytes
+00212.466 parser: m-mute-target[dut]
+00213.133 parser: m-unmute-target[dut]
+00213.133 parser: Binary load took 0.668 sec, or 153.306 kB/sec
+00213.133 parser: m-bload-done
+00213.133 parser: m-ready-finished[bload]
+00213.134 sequencer: m-sequencing-i[8]-command[dut infer 2500 1]-ack[/dut.?: m-ready/]-ms[-1]-acc[3296799]-total_ms[8212000]
+00213.134 parser: Command "dut infer 2500 1"
+00213.134 parser: m-ready-finished[dut]
+00213.140 dut: m-warmup-start-1
+00213.146 dut: m-warmup-done
+00213.149 dut: m-infer-start-2500
+00213.151 dut: m-lap-us-224294608
+00225.158 dut: m-lap-us-236419292
+00225.158 dut: m-infer-done
+00225.161 dut: m-results-[9.834]
+00225.162 dut: m-ready
+00225.162 sequencer: m-sequencing-i[9]-command[bload dut "C:\Users\baghdadf\eembc\runner\benchmarks\ulp-mlperf\datasets\ad01\normal_id_01_00000023_hist_librosa.bin" 0 2560]-ack[/parser: m-ready/]-ms[1638400]-acc[3296798]-total_ms[8212000]
+00225.163 parser: Command "bload dut "C:\Users\baghdadf\eembc\runner\benchmarks\ulp-mlperf\datasets\ad01\normal_id_01_00000023_hist_librosa.bin" 0 2560"
+00225.163 parser: File size is 102400, loading...
+00225.170 parser: Starting at byte offset 0
+00225.170 parser: Sending 2560 bytes
+00225.170 parser: m-mute-target[dut]
+00225.899 parser: m-unmute-target[dut]
+00225.899 parser: Binary load took 0.729 sec, or 140.412 kB/sec
+00225.899 parser: m-bload-done
+00225.899 parser: m-ready-finished[bload]
+00225.899 sequencer: m-sequencing-i[10]-command[dut infer 2500 1]-ack[/dut.?: m-ready/]-ms[-1]-acc[4935198]-total_ms[8212000]
+00225.900 parser: Command "dut infer 2500 1"
+00225.900 parser: m-ready-finished[dut]
+00225.907 dut: m-warmup-start-1
+00225.913 dut: m-warmup-done
+00225.915 dut: m-infer-start-2500
+00225.917 dut: m-lap-us-237185534
+00237.925 dut: m-lap-us-249310218
+00237.928 dut: m-infer-done
+00237.930 dut: m-results-[10.753]
+00237.930 dut: m-ready
+00237.931 sequencer: m-sequencing-i[11]-command[bload dut "C:\Users\baghdadf\eembc\runner\benchmarks\ulp-mlperf\datasets\ad01\normal_id_01_00000033_hist_librosa.bin" 0 2560]-ack[/parser: m-ready/]-ms[1638400]-acc[4935197]-total_ms[8212000]
+00237.931 parser: Command "bload dut "C:\Users\baghdadf\eembc\runner\benchmarks\ulp-mlperf\datasets\ad01\normal_id_01_00000033_hist_librosa.bin" 0 2560"
+00237.932 parser: File size is 102400, loading...
+00237.944 parser: Starting at byte offset 0
+00237.944 parser: Sending 2560 bytes
+00237.944 parser: m-mute-target[dut]
+00238.627 parser: m-unmute-target[dut]
+00238.628 parser: Binary load took 0.683 sec, or 149.818 kB/sec
+00238.628 parser: m-bload-done
+00238.628 parser: m-ready-finished[bload]
+00238.628 sequencer: m-sequencing-i[12]-command[dut infer 2500 1]-ack[/dut.?: m-ready/]-ms[-1]-acc[6573597]-total_ms[8212000]
+00238.628 parser: Command "dut infer 2500 1"
+00238.628 parser: m-ready-finished[dut]
+00238.635 dut: m-warmup-start-1
+00238.640 dut: m-warmup-done
+00238.642 dut: m-infer-start-2500
+00238.644 dut: m-lap-us-250036802
+00250.652 dut: m-lap-us-262161486
+00250.653 dut: m-infer-done
+00250.656 dut: m-results-[8.838]
+00250.657 dut: m-ready
+00250.658 sequencer: m-sequencing-i[13]-command[bload dut "C:\Users\baghdadf\eembc\runner\benchmarks\ulp-mlperf\datasets\ad01\normal_id_01_00000043_hist_librosa.bin" 0 2560]-ack[/parser: m-ready/]-ms[1638400]-acc[6573596]-total_ms[8212000]
+00250.658 parser: Command "bload dut "C:\Users\baghdadf\eembc\runner\benchmarks\ulp-mlperf\datasets\ad01\normal_id_01_00000043_hist_librosa.bin" 0 2560"
+00250.658 parser: File size is 102400, loading...
+00250.663 parser: Starting at byte offset 0
+00250.663 parser: Sending 2560 bytes
+00250.663 parser: m-mute-target[dut]
+00251.278 parser: m-unmute-target[dut]
+00251.278 parser: Binary load took 0.615 sec, or 166.504 kB/sec
+00251.278 parser: m-bload-done
+00251.278 parser: m-ready-finished[bload]
+00251.278 sequencer: m-sequencing-i[14]-command[dut infer 2500 1]-ack[/dut.?: m-ready/]-ms[-1]-acc[8211996]-total_ms[8212000]
+00251.278 parser: Command "dut infer 2500 1"
+00251.278 parser: m-ready-finished[dut]
+00251.285 dut: m-warmup-start-1
+00251.291 dut: m-warmup-done
+00251.292 dut: m-infer-start-2500
+00251.294 dut: m-lap-us-262809369
+00263.303 dut: m-lap-us-274934053
+00263.304 dut: m-infer-done
+00263.306 dut: m-results-[11.200]
+00263.308 dut: m-ready
+00263.308 sequencer: m-sequencer-stop
+00263.322 session: m-session-stop-id[20230505091405]
+00263.322 session: Saved this run to session ID 20230505091405
