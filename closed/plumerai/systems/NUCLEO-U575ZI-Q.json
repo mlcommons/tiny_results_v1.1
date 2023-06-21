@@ -3,7 +3,7 @@
   "Division": "Closed",
   "Status": "Available",
 
-  "Board Name": "NUCLEO_U575ZI_Q",
+  "Board Name": "NUCLEO-U575ZI-Q",
   "Board Memory capacity (not including SoC, processor, or accelerator)": "",
   "Board Memory type": "",
   "Board storage capacity": "",
@@ -13,7 +13,7 @@
   "SoC Memory type": "SRAM",
   "SoC storage capacity": "2MB",
   "SoC storage type": "flash",
-  "Processor(s) Name": "Arm® Cortex®-M33",
+  "Processor(s) Name": "32-bit Arm® Cortex®-M33 (DSP + FPU)",
   "Processor(s) Frequencies": "160 MHz",
   "Processor memory type and capacity": "",
   "Processor storage type and capacity": "",
@@ -23,8 +23,8 @@
   "Accelerator storage type and capacity": "",
   "Hardware Notes": "",
 
-  "Inference Framework": "Plumerai Inference Engine",
-  "Software Libraries": "",
+  "Inference Framework": "Plumerai Inference Engine 2023.05",
+  "Software Libraries": "Plumerai Inference Engine 2023.05",
   "Operating System ": "mbed-os bare metal",
   "Other Software Stack": "",
   "Software Notes": "",

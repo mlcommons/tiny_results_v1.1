@@ -24,16 +24,11 @@
 	"Hardware Notes": "Operating at 1.8V / SMPS",
 
 	"Inference Framework": "X-CUBE-AI v8.1.0",
-	"Software Libraries": "",
+	"Software Libraries": "X-CUBE-AI v8.1.0",
 	"Operating System ": "",
 	"Other Software Stack": "",
 	"Software Notes": "",
 
-	"Inference Framework": "",
-	"Software Libraries": "",
-	"Operating System": "",
-	"Other Software Stack": "",
-	"Software Notes": "",
 
 	"Quantization Method": "TensorFlow Int8 Quantization",
 	"Training framework (open division)": "",

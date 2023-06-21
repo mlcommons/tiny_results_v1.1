@@ -471,7 +471,7 @@ Make sure that your board has the the following jumpers fitted:
 
 **2. Flash the board:**
 
-Connect the board to the laptop using a usb cable and use STM32CubeProg to flash the board as the following and before flashing your board make sure that your board is in single bank, for this you need to go under option bytes then user configuration and let DBANK bit unchecked :
+Connect the board to the laptop using a usb cable and use STM32CubeProg to flash the board as the following and before flashing your board make sure that your board is in single bank, for this you need to go under option bytes then user configuration and let DBANK bit unchecked.
 
 ![plot](./doc/l4_programmer_config.gif)
 

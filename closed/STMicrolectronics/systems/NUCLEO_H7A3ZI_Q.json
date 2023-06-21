@@ -21,17 +21,11 @@
 	"Accelerator(s) Frequencies": "",
 	"Accelerator memory type and capacity": "",
 	"Accelerator storage type and capacity": "",
-	"Hardware Notes": "Operating at 3.3V with SMPS",
+	"Hardware Notes": "Operating at 3V with SMPS",
 
 	"Inference Framework": "X-CUBE-AI v8.1.0",
-	"Software Libraries": "",
+	"Software Libraries": "X-CUBE-AI v8.1.0",
 	"Operating System ": "",
-	"Other Software Stack": "",
-	"Software Notes": "",
-
-	"Inference Framework": "",
-	"Software Libraries": "",
-	"Operating System": "",
 	"Other Software Stack": "",
 	"Software Notes": "",
 
