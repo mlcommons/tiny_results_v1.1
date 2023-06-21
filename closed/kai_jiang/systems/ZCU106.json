@@ -18,8 +18,8 @@
 	"Processor memory type and capacity": "",
 	"Processor storage type and capacity": "",
 	"Accelerator": "ANPU",
-	"Accelerator(s) Frequencies": "200M",
-	"Accelerator memory type and capacity": "SRAM",
+	"Accelerator(s) Frequencies": "200MHz",
+	"Accelerator memory type and capacity": "SRAM 882KB",
 	"Accelerator storage type and capacity": "882KB",
 	"Hardware Notes": "",
 

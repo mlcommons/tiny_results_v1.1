@@ -1,3 +1,3 @@
 To put the ZedBoard into SD card boot mode, jumpers `JP7-11` must be configured as shown in the figure.
 
-![Cora-Z7](cora-z7.png)
+![ZedBoard](zedboard.png)
